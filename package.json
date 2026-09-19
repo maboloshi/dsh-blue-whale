@@ -1,6 +1,6 @@
 {
   "name": "dsh-blue-whale",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "A DeepSeek Chat-style blue-whale color skin. Light and dark follow the built-in appearance.",
   "license": "MIT",
   "author": "starslittle",
@@ -45,7 +45,6 @@
     },
     "client": {
       "inject": [
-        "@deepseek-ai/dsh-client-runtime",
         "@deepseek-ai/dsh-client-locale",
         "@deepseek-ai/dsh-client-ui-theme"
       ],
@@ -55,6 +54,7 @@
   },
   "peerDependencies": {
     "react": "^18.2.0",
+    "@deepseek-ai/dsh-client-store": "*",
     "@deepseek-ai/dsh-client-runtime": "^0.1.0-rc.6",
     "@deepseek-ai/dsh-client-ui-theme": "^0.1.0-rc.6",
     "@deepseek-ai/dsh-client-locale": "^0.1.0-rc.6",
